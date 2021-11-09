@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x:hidden ;
+    background-image: url(/imagenes/silver-stars-on-white-background-free-vector.jpg);
+    background-size: cover;
+}
+
+.header {
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.video {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;   
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);  
+        z-index: -100;
+        background-repeat: repeat-x;
+        background-size: cover;
+        background-color: #0b1226;
+      
+}
+
+.content{
+    max-width: 49rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.header-video {
+    position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: -100;
+   height: 100vh;
+   overflow: hidden; 
+   background-color: #0b1226;
+}
+
+.header-video video
+{
+    min-width: 100%;
+    max-height: 100%;
+}
+
+.header-overlay {
+    height: 100vh;
+    width:  100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0b1226;
+    z-index: 1;
+    opacity: .30;
+}
+
+.header-content{
+    z-index: 2;
+}
+
+.header-content h1 {
+    margin-bottom: 0;
+    font-family:  Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(rgb(0, 187, 255),rgb(149, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #24bcd7;
+      font-size: 80px;
+      top: 385px;
+      left: 700px;
+}
+img.btn_carrito{
+    width: 78px;
+}
+
+img {
+    width: 200px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header-cart {
+    background: #0b1226;
+    padding: 0px;
+    color: #FFFF;
+    display: flex;
+    justify-content: flex-end;
+    margin: -4px;
+    width: 1353px;
+}
+
+
+.container_products {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #536dff;
+}
+
+.button {
+    position: relative;
+      background-color: #147ee3;
+      border: none;
+      font-size: 20px;
+      color: #FFFFFF;
+      padding: 5px;
+      width: 180px;
+      text-align: center;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      border-radius: 0.5rem;
+  }
+  
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+.cart {
+    position: absolute;
+    padding: 3px;
+    width: 390px;
+    height: 52vh;
+    right: 0px;
+    top: 183mm;
+    background: rgb(255, 255, 255);
+    border-left: 4px groove rgb(239, 239, 239);
+    border-top-style: groove;
+    border-right-style: groove;
+    border-bottom-style: groove;
+}
+
+.ocult {
+    display: none;
+}
+
+.btn_carrito:hover {
+    cursor: pointer;
+}
+
+.card_producto {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #536dff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.font{
+    height: 3rem;
+    width: 80rem;
+  }
+
+  div.centrado{
+    align-items:center ;
+    margin-top: 10px;
+  }
+  
+.imag-font{
+    width: 50px;
+}
