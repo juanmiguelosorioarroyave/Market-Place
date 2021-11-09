@@ -43,9 +43,15 @@ productos = [
     },
     {
         id:8,
-        nombre: 'Jujutsu Kaisen',
-        img: '/imagenes/cart5.jpg',
+        nombre: 'Poster-de-One-Punch-Man ',
+        img: '/imagenes/cart11.jpg',
         precio: 540000
+    },
+    {
+        id:9,
+        nombre: 'llave shingeki no kyojin ',
+        img: '/imagenes/atta.jpg',
+        precio: 54000
     }
 ]
 
